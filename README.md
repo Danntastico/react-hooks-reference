@@ -2,10 +2,11 @@
 
 ## Table of Contents
 
-- [General Info](#generalinfo)
+- [General Info](#genera-linfo)
 - [technologies](#technologies)
 - [setup](#setup)
-- [Try it out](#tryitout)
+- [Try it out](#try-it-out)
+- [What are React hooks](#what-are-react-hooks)
 - [useState](#usestate) 👾
 - [useEffect](#useeffect) 🤖
 - [useRef](#useref) 🎃
@@ -28,8 +29,14 @@ Project is created with:
 
 ## Setup
 
-```bash
-  yarn install
+To run this project, install it locally using npm:
+
+```
+$ cd ../hook-app
+$ npm install
+$ npm start
+
+or using yarn too!
 ```
 
 ## Try it out
@@ -39,5 +46,11 @@ To try one of these examples, just go to the directory `index` and replace the f
 ```javascript
 ReactDOM.render(<MemoHook />, document.getElementById('root'));
 ```
+
+## What are React Hooks
+
+**In simple words**, with React Hooks, we can manage the state and other features by using functional components.
+
+> _hasta la vista, class components_
 
 ## useState
